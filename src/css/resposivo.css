@@ -1,0 +1,72 @@
+@media screen and (max-width: 920px) {
+    .metrica {
+      padding: 0 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .metrica {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .metrica {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+  
+    .metrica p, h2 {
+      max-width: 280px;
+      text-align: center;
+    }
+  
+    .sobrenos p, h2, h1 {
+      max-width: 70%;
+    }
+  
+    .vaga {
+      max-width: 70%;
+    }
+    
+    .vagas-abertas p.area-principal {
+      max-width: 70%;
+    }
+  
+    .depoimento h2 {
+      max-width: 100%;
+      font-size: 120%;
+    }
+  
+    .cabecalho_logo {
+      display: initial;
+      visibility: visible;
+    }
+  
+    .cabecalho_menu {
+      margin: 2rem 0;
+    }
+  
+    .lista_itens_menu {
+      margin-right: 0;
+    }
+  
+    .cabecalho_menu {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      right: -1000px;
+      height: 100vh;
+      background: #F9FAFB;
+      width: 15rem;
+      padding: 2rem;
+      transition: all 2s;
+    }
+  
+    .cabecalho_menu .cabecalho_lista_menu, .cabecalho_menu .cabecalho_botoes .cabecalho_lista_botoes {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
